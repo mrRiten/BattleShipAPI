@@ -7,13 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\GenaralAspLib.Application\GeneralAspLib.Application.csproj" />
-    <ProjectReference Include="..\UserMicroService.Application\UserMicroService.Application.csproj" />
   </ItemGroup>
 
 </Project>

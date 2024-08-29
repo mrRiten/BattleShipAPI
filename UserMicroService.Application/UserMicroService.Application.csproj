@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="RepositoryContracts\" />
     <Folder Include="ServiceContracts\" />
     <Folder Include="HelperContracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenaralAspLib.Application\GeneralAspLib.Application.csproj" />
+    <ProjectReference Include="..\UserMicroService.Core\UserMicroService.Core.csproj" />
   </ItemGroup>
 
 </Project>
